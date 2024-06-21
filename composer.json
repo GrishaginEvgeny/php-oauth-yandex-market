@@ -6,7 +6,7 @@
   "license": "MIT",
   "minimum-stability": "dev",
   "require": {
-    "azgalot/yandex-market-common-php": "1.*.*"
+    "azgalot/yandex-market-common-php": "dev-fix-deprecate"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0",
@@ -28,5 +28,11 @@
       "Yandex": "src/",
       "Yandex\\Tests": "tests/"
     }
-  }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/GrishaginEvgeny/yandex-market-common-php.git"
+    }
+  ]
 }
