@@ -6,13 +6,19 @@
   "license": "MIT",
   "minimum-stability": "dev",
   "require": {
-    "azgalot/yandex-market-common-php": "1.*.*"
+    "azgalot/yandex-market-common-php": "dev-add-api-key-support"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0",
     "php-coveralls/php-coveralls": "^2.0",
     "phpunit/phpunit": "~5.0"
   },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/GrishaginEvgeny/yandex-market-common-php"
+    }
+  ],
   "authors": [
     {
       "name": "Kirill Litvinov",
